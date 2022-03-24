@@ -19,7 +19,7 @@
       </nav>
 
 
-      <section class="container">
+    <section class="container">
       <div class="row">
         <div class="col-4 ">
             <h3 class="fs-2 fw-bold">Search For A City</h3>
@@ -27,12 +27,60 @@
                 <input type="text" class="form-control" placeholder="Search For City" aria-label="Search For City" aria-describedby="button-addon2">
               </div>
             <div class="row bg-primary">
-                <button class="btn btn-outline-White bg-primary text-white" type="button" id="btn">Search</button>
+                <button class="btn btn-outline-White bg-primary text-white" type="button" id="search-button">Search</button>
             </div>  
-            
+        </div>    
+
+    <section class="col-8">
+        <div class="row">
+            <span class="col-12 border border-dark m-3 rounded">
+                <div class="row">
+                    <div class="col-12">
+                    <div id="city-name" class="city-name align-middle"></div>
+                        <img id="city-pic" src="placeholder" alt="">
+                    </div>
+                </div>
+               
+        <div class= "row">
+            <span class= "col-12">
+                <p id="Temperature"></p>
+            </span>
+        </div>
+                       
+        <div class= "row">
+            <span class= "col-12">
+                <p id="Humidity"></p>
+            </span>
+        </div>
     
+        <div class= "row">
+            <span class= "col-12">
+                <p id="Wind"></p>
+            </span>
+        </div>
     
+        <div class= "row">
+            <span class= "col-12">
+                <p id="UV-index"></p>
+            </span>
+        </div>
+
+            </span>
+        </div>
+        <div class= "row">
+            <span class= "col-12">
+                <h4>Five-Day Forcast</h4>
+            </span>
+        </div>
+        <div class="row">
+            <div class="col forecast bg-primary text-white ml-3 mb-2 rounded"></div>
+            <div class="col forecast bg-primary text-white ml-3 mb-2 rounded"></div>
+            <div class="col forecast bg-primary text-white ml-3 mb-2 rounded"></div>
+            <div class="col forecast bg-primary text-white ml-3 mb-2 rounded"></div>
+            <div class="col forecast bg-primary text-white ml-3 mb-2 rounded"></div>
+        </div>
     </section>
+  
 
   <script src="./assets/js/script.js"></script>  
 </body>
